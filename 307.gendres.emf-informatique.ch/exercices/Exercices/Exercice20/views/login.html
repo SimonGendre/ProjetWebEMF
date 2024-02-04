@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<!-- panneau de login -->
+<form class="user-form">
+  <fieldset>
+    <legend>Identification:</legend>
+    <div class="field">
+      <label for="username">Nom d'utilisateur:</label>
+      <input type="text" size="30" id="username" autocomplete="username" placeholder="un nom svp" autofocus />
+    </div>
+    <div class="field">
+      <label for="password">Mot de passe:</label>
+      <input type="password" size="30" id="password" autocomplete="current-password" placeholder="un mot de passe svp" />
+    </div>
+
+    <div class="field">
+      <label for="domaine">Domaine</label>
+      <select id="domaine" class="form-control">
+        <option>EDU</option>
+        <option>STUDENTFR</option>
+      </select>
+    </div>
+    <input id="login-valider" type="button" class="but-valider" value="Valider" />
+    <!-- L'écouteur du bouton a été ajouté depuis le JavaScript -->
+    <!-- <input  id="valider-user" type="button" class="but-valider" value="Valider" onclick="loginCtrl.validerUtilisateur();"> -->
+    <a id="creer" href="javascript:indexCtrl.loadCompte();">Créer un compte</a>
+  </fieldset>
+</form>

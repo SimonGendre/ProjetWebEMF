@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <!-- 
+   But :    exerice 15 : Première utilisation de jquery
+   Auteur : Simon Gendre
+   Date :   23.05.2023 / V1.0 
+   -->
+
+  <!-- entête de la page -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="#" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Exercice 15 - Première utilisation de JQuery</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- <script src="js/indexCtrlJS.js"></script> -->
+    <script src="js/indexCtrlJQ.js"></script>
+  </head>
+
+  <!-- corps de la page avec enregistrement d'écouteur dans le HTML de la page-->
+  <body>
+    <div id="container">
+      <form>
+        <p id="titre">Choisir une couleur pour changer le fond du conteneur</p>
+        <select
+          size="9"
+          id="couleurs"
+          onChange="ctrl.changerCouleur(couleurs.value);"
+        >
+          <option value="white">Blanc</option>
+          <option value="red">Rouge</option>
+          <option value="green">Vert</option>
+          <option value="blue">Bleu</option>
+          <option selected value="yellow">Jaune</option>
+          <option value="#F0F0F0">Gris</option>
+          <option value="#0FABCD">Bleu clair</option>
+          <option value="#FB33BB">Violet</option>
+          <option value="#CDB0DC">Violet Clair</option>
+        </select>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<!-- panneau pour créer un nouveau compte -->
+<div id="compte" class="card">
+  <form class="user-form">
+    <fieldset>
+      <legend>Identification du nouveau compte:</legend>
+      <div class="field">
+        <label for="username">Nom d'utilisateur:</label>
+        <input type="text" size="30" id="username" autocomplete="username" placeholder="un nom d'utilisateur" autofocus />
+      </div>
+      <div class="field">
+        <label for="password">Mot de passe:</label>
+        <input type="password" size="30" id="password" autocomplete="current-password" placeholder="un mot de passe svp" />
+      </div>
+
+      <div class="field">
+        <label for="domaine">Domaine</label>
+        <select id="domaine" class="form-control">
+          <option>EDU</option>
+          <option>STUDENTFR</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="mail">Adresse mail:</label>
+        <input type="text" size="30" id="mail" placeholder="une adresse mail" />
+      </div>
+
+      <div class="field">
+        <label>Langue</label>
+
+        <div data-toggle="buttons" id="langue">
+          <input type="radio" name="langues" id="langue1" value="fr" autocomplete="off" checked /> fr
+          <input type="radio" name="langues" id="langue2" value="de" autocomplete="off" /> de
+          <input type="radio" name="langues" id="langue3" value="en" autocomplete="off" /> en
+        </div>
+      </div>
+      <!-- L'écouteur des boutons a été ajouté depuis le JavaScript -->
+      <input id="compte-valider" type="button" class="but-valider" value="Enregistrer" />
+      <input id="compte-retour" type="button" class="but-invalider" value="Retour login" />
+    </fieldset>
+  </form>
+</div>

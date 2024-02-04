@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <!-- 
+   But :    exerice 3 : implementer un login via PHP
+   Auteur : Simon Gendre
+   Date :   15.05.2023 / V1.0 
+   -->
+
+  <!-- entête de la page -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="#" />
+    <link rel="stylesheet" href="css/main.css" />
+   
+    <title>Ex03 — login PHP</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <!--login et mot de passe-->
+      <form class="user-form" action="https://gendres.emf-informatique.ch/Module_307/Exercices/Exercice03/login.php" method="POST">
+        <fieldset>
+          <legend>Identification:</legend>
+          <div class="field">
+            <label for="username">Nom d'utilisateur:</label>
+            <input type="text" size="30" id="username " name="username"
+              placeholder="un nom svp" autofocus />
+          </div>
+          <div class="field">
+            <label for="username">Mot de passe:</label>
+            <input type="password" size="30" id="password" name="password"
+              placeholder="un mot de passe svp" />
+          </div>
+          <div class="button">
+            <input type="submit" value="Valider">
+          </div>
+      
+        </fieldset>
+      </form>
+  </body>
+</html>

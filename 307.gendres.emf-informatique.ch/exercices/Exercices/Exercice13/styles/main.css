@@ -1,0 +1,30 @@
+
+body {
+    margin: 0;
+}
+
+#mainContainer {
+    display: flex;
+    overflow: auto;
+    margin-top: 200px;
+    justify-content: center;
+    /* align item horizontally */
+    align-items: center;
+    /* align item vertically */
+}
+
+#container {
+    border: 4px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: brown;
+    background-color: coral;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}

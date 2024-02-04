@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <!-- 
+   But :    exerice 2 : implementer un login
+   Auteur : Simon Gendre
+   Date :   15.05.2023 / V1.0 
+   -->
+
+  <!-- entête de la page -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="#" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script type="text/javascript" src="js/indexCtrl.js" async></script>
+    <title>Ex02 — Test login</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <!--login et mot de passe-->
+      <form class="user-form">
+        <fieldset>
+          <legend>Identification:</legend>
+          <div class="field">
+            <label for="username">Nom d'utilisateur:</label>
+            <input type="text" size="30" id="username"
+              placeholder="un nom svp" autofocus />
+          </div>
+          <div class="field">
+            <label for="username">Mot de passe:</label>
+            <input type="password" size="30" id="password"
+              placeholder="un mot de passe svp" />
+          </div>
+          <input type="button" value="Valider" id="valider" onclick="login();">
+        </fieldset>
+      </form>
+  </body>
+</html>

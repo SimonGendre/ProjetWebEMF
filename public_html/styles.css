@@ -1,0 +1,56 @@
+.header {
+	position: absolute;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+
+	top: 10%;
+	width: 90%;
+	height: auto;
+
+	background: rgba(255, 255, 255, 0.05);
+	box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	border-top: 1px solid rgba(255, 255, 255, 0.1);
+	border-radius: 30px;
+	padding: 10px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	overflow: hidden;
+	color: #fff;
+	font-weight: 400px;
+
+	transition: 0.5s;
+	backdrop-filter: blur(15px);
+}
+.footer {
+
+	position: absolute;
+	text-align: left;
+	align-items: center;
+	justify-content: center;
+
+	bottom: 1%;
+	width: 90%;
+	height: auto;
+
+	background: rgba(255, 255, 255, 0.05);
+	box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	border-top: 1px solid rgba(255, 255, 255, 0.1);
+	border-radius: 30px;
+	padding: 10px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	overflow: hidden;
+	color: #fff;
+	font-weight: 400px;
+
+	transition: 0.5s;
+	backdrop-filter: blur(15px);
+
+}
+.footer a {
+	text-decoration: none;
+	color: #fff;
+}

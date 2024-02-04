@@ -1,0 +1,42 @@
+/*
+   But :    exerice 1 : tester JS
+   Auteur : Simon Gendre
+   Date :   15.05.2023 / V1.0 
+*/
+body {
+  background-color: white;
+}
+
+#container {
+  background-color: gray;
+  width: 90%;
+  color: beige;
+  border: 1px solid black;
+  margin: auto;
+  font-family: Verdana, Arial, serif;
+}
+#field {
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  margin: 10px;
+}
+.user-form .field {
+  padding: 5px;
+  background-color: #e4f4e6;
+  color: black;
+}
+.user-form .field label {
+  display: inline-block;
+  width: 170px;
+}
+.user-form .field input {
+  display: inline-block;
+}
+#valider {
+  width: 100px;
+  border-radius: 5px;
+  border-color: #d7ac57;
+  background-color: #c3653f;
+  margin-top: 1cm;
+}

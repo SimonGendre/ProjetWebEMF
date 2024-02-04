@@ -1,0 +1,50 @@
+/*
+        Author: Philippe Galley
+        Date: 01.04.2023
+        Description: Exercice 16, fonctions jquery
+*/
+body {
+    margin: 0px
+}
+
+#mainContainer {
+    background-color: lightgray;
+    padding: 50px;
+}
+
+.ligne {
+    display: flex;
+    align-items: top;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+}
+
+input[type=button] {
+    margin-right: 5px;
+    margin-top: 5px;
+    height: 30px;
+}
+
+.divText {
+    background-color: lightskyblue;
+    border: 2px;
+    border-style: dotted;
+    padding: 10px;
+    text-align: center;
+    text-align: justify;
+}
+
+.boldBlueText {
+    color: red;
+    font-weight: bold;
+}
+
+.underlineClass {
+    text-decoration: underline;
+}
+
+p {
+    margin-right: 10px;
+}

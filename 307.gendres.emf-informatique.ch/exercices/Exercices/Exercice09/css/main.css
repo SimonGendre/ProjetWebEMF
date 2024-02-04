@@ -1,0 +1,47 @@
+/*
+  But :     
+  Auteur : prénom + nom
+  Date :   jj.mm.aaaa / V1.0
+*/
+body {
+  background-color: grey;
+}
+
+#container {
+  background-color: white;
+  width: 90%;
+  padding: 1em;
+  border: 1px solid black;
+  margin: auto;
+  font-family: Verdana, Arial, serif;
+}
+
+/* pour aligner les champs du formulaire */
+.user-form {
+  /*  padding: 0em;*/
+}
+
+.user-form .field {
+  padding: 0.5em;
+  background: #eeeeee;
+}
+
+.user-form .field label {
+  display: inline-block;
+  width: 10em;
+}
+
+.user-form .field input {
+  display: inline-block;
+}
+
+.user-form .button {
+  padding-top: 0.25em;
+  text-align: center;
+}
+
+.user-form input[type=submit] {
+  font-size: 1em;
+  color:#ffffff;
+  background-color: #a0a0a0;
+}

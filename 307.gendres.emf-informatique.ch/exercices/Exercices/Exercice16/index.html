@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html>
+
+    <!--
+        Author: Simon Gendre
+        Date: 30.05.2023
+        Description: Exercice 16, fonctions jquery
+    -->
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Exercice 16 - Fonctions jquery</title>
+        <meta name="description" content>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.js' integrity='sha512-8Z5++K1rB3U+USaLKG6oO8uWWBhdYsM3hmdirnOEWp8h2B1aOikj5zBzlXs8QOrvY9OxEnD2QDkbSKKpfqcIWw==' crossorigin='anonymous'></script>
+        <script src="./js/main.js"></script>
+        <link rel="stylesheet" href="styles/main.css">
+    </head>
+    <body>
+
+        <div id="mainContainer">
+
+            <div class="ligne">
+                <h2>Exercice 16 - Fonctions jquery</h2>
+            </div>
+
+            <!-- Première ligne de l'interface -->
+            <div class="ligne">
+                <input type="button" id="btnShow" value="Afficher">
+                <input type="button" id="btnHide" value="Cacher">
+                <input type="button" id="btnToggle" value="Afficher / Cacher">
+                <div id="div_1" class="divText">Velit sint tempor amet non esse consequat nulla ipsum irure veniam esse commodo veniam eiusmod. Deserunt duis
+                    duis
+                    esse aute proident proident Lorem. Exercitation non nulla ad minim aliquip esse labore ipsum quis mollit incididunt ipsum. Eu sunt enim do
+                    veniam elit cillum magna. Fugiat sit non eiusmod velit officia Lorem ipsum fugiat qui commodo velit veniam. Eiusmod cupidatat non elit
+                    proident proident do nisi veniam consectetur elit aliqua incididunt. Incididunt proident consectetur anim labore adipisicing velit commodo
+                    ex tempor ea qui voluptate id ullamco.</div>
+            </div>
+
+            <!-- Deuxième ligne de l'interface -->
+            <div class="ligne">
+                <input type="button" id="btnPlier" value="Plier">
+                <input type="button" id="btnDeplier" value="Déplier">
+                <div id="div_2" class="divText">
+                    Sint dolore exercitation sint ex cillum minim velit Lorem id enim anim consequat quis minim. Esse laborum minim veniam ad. Pariatur aliquip
+                    occaecat minim laboris. Velit et ullamco non cillum adipisicing ad est non exercitation quis eu labore pariatur fugiat. Nostrud nisi laboris
+                    magna amet sit cillum ut ex ex aliquip excepteur Lorem veniam laboris. Et ea irure ea consequat exercitation minim.
+                </div>
+            </div>
+
+            <!-- Troisième ligne de l'interface -->
+            <div class="ligne">
+                <input type="button" id="btnFonduShow" value="Afficher (fondu)">
+                <input type="button" id="btnFonduHide" value="Cacher (fondu)">
+                <div id="div_3" class="divText">
+                    Culpa incididunt cillum nostrud dolor ad. Magna officia commodo cupidatat in aute eiusmod duis excepteur do duis. Cillum est laborum aute
+                    in. Deserunt voluptate anim velit culpa quis ut aute eu nostrud sit consequat in. Cillum nulla culpa dolor id mollit aliquip consequat est
+                    cupidatat sunt mollit eiusmod. Incididunt laborum id amet elit ullamco ipsum sunt dolor. Fugiat occaecat cupidatat consectetur adipisicing.
+                </div>
+            </div>
+
+            <!-- Quatrième ligne de l'interface -->
+            <div class="ligne">
+                <div>
+                    <input type="button" id="btnSetClass" value="Ajouter une classe au premier élément">
+                    <input type="button" id="btnRemoveClass" value="Supprimer une classe au premier élément">
+                    <input type="button" id="btnToggleClass" value="Ajouter/Supprimer une classe au dernier élément">
+                    <input type="button" id="btnPairesClass" value="Souligner les élément impaires">
+                </div>
+                <div>
+                    <ol>
+                        <li>Minim do culpa duis dolor cillum enim consectetur pariatur irure anim velit velit.</li>
+                        <li>Ullamco aliquip occaecat cillum magna in.</li>
+                        <li>Ut aliquip irure sint fugiat nulla ut.</li>
+                        <li>
+                            <ul>
+                                <li>Proident enim ex culpa cupidatat Lorem.</li>
+                                <li>Ad irure nisi deserunt enim incididunt cupidatat sunt.</li>
+                                <li>Eiusmod laboris laborum Lorem esse nisi fugiat enim commodo adipisicing mollit ad excepteur consectetur in.</li>
+                            </ul>
+                        </li>
+                        <li>Lorem mollit nulla cillum ea dolor consequat enim ut occaecat proident.</li>
+                    </ol>
+                </div>
+
+            </div>
+
+            <!-- Cinquième ligne de l'interface -->
+            <div class="ligne">
+
+                <div>
+                    <input type="text" id="textToInsert" placeholder="Texte à insérer">
+                    <input type="checkbox" id="textBold">Text en gras</input>
+                    <input type="button" id="btnInsertText" value="Insérer le texte">
+                </div>
+                <div>
+                    <div id="textes"></div>
+                </div>
+
+            </div>
+
+            <!-- Sixième ligne de l'interface -->
+            <div class="ligne">
+                <p class="personne" pk="1344">José</p>
+                <p class="personne" pk="653">Pascal</p>
+                <p class="personne" pk="32">Henri</p>
+                <p class="personne" pk="41">Sophie</p>
+            </div>
+
+        </div>
+
+    </body>
+</html>

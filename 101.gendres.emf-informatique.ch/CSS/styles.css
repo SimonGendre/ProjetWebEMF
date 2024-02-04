@@ -1,0 +1,165 @@
+/*
+CSS pour les écran de plus de 1100px de large
+version 1.8
+20.01.22
+Simon Gendre
+*/
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    margin: 0em;
+}
+
+.backgroundImg {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: block;
+    background-image: url('../images/astronaute_lego.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 105%;
+    height: 105%;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+
+.contenu {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+/*menu de navigation*/
+
+header {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background-color: #720000;
+    padding: 0.5em;
+    border-radius: 10px;
+}
+
+.imageEntete {
+    width: 5%;
+}
+
+img.logoSite {
+    width: 100%;
+    border-radius: 100px;
+}
+
+img.boutonMenu {
+    display: none;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+.menuNavigation>p>a {
+    color: aliceblue;
+    text-decoration: none;
+
+}
+
+.menuNavigation {
+    padding: 1em;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.menuNavigation>p {
+    margin: 2px;
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+
+
+
+.menuNavigation>p>a {
+    display: inline-block;
+    position: relative;
+    
+  }
+  
+  .menuNavigation>p>a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 4px;
+    bottom: 0;
+    left: 0;
+    background-color: darkslateblue;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .menuNavigation>p>a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+.menuActif {
+    background-color: darkslateblue;
+    border-radius: 10px;
+    width: 100%;
+}
+
+/*contenu de la page*/
+.sousTitre {
+    font-weight: bold;
+}
+
+.texte {
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.5em;
+    margin-top: 1.5em;
+    text-align: center;
+    margin: 2.5em;
+}
+
+.texteGauche {
+    width: 45%;
+}
+
+.texteDroite {
+    width: 45%;
+}
+
+.imageLegende {
+    margin: 0.5em;
+    padding: 0.1em;
+}
+
+.imageLegende>img,
+.imageLegende>video, .imageLegende>iframe {
+    height: 15em;
+    text-align: center;
+    border-radius: 5px;
+    width: auto;
+}
+.imageLegende>iframe{
+    width: 26em;
+}
+
+.conteneur {
+    text-align: center;
+    margin-top: 3em;
+    font-size: 3em;
+    width: 100%;
+}
